@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "discord bot using chatgpt with basic memory commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "discord-bot"
+  },
+  "author": "charlielarson15",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "openai": "^3.2.1",
+    "typescript": "^5.0.4"
+  }
+}
